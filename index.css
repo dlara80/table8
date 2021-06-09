@@ -1,0 +1,45 @@
+body {
+    margin-left: 100px;
+}
+
+
+#operation {    
+    border:2px solid #73AD21;;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding: 10px;    
+    font-weight: bold;
+    margin-right:100px;
+    
+}
+
+#results {
+    display: flex;    
+}
+
+.number {
+    border-radius: 7px;
+    padding: 7px;
+    border:2px solid #215ead;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.disabled {
+    cursor:default;
+    background-color:#b5c0c0; 
+  }
+
+.correct {
+  background-color:#73AD21; 
+}
+
+
+
+#btnNext {
+    border-radius: 7px;
+    padding: 7px;
+    border:2px solid #73AD21;
+    cursor: pointer;
+    margin-right: 15px;
+}
